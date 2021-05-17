@@ -1,0 +1,16 @@
+// substituir :id pelo uuid
+PUT http://localhost:3333/repositories/:id
+
+###
+
+PUT http://localhost:3333/repositories/5c8bf70a-c6e3-470b-a98a-54f6d4312af3
+Content-Type: application/json
+
+{
+    "title": "Aplicação com TypeScript",
+    "url": "https://github.com/erick-gomes/bot-whatsapp",
+    "techs": [
+        "NodeJS",
+        "typescript"
+    ]
+}

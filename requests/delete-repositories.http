@@ -1,0 +1,6 @@
+// substituir :id pelo uuid
+DELETE http://localhost:3333/repositories/:id
+
+###
+
+DELETE http://localhost:3333/repositories/5c8bf70a-c6e3-470b-a98a-54f6d4312af3

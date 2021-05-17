@@ -1,0 +1,20 @@
+POST http://localhost:3333/repositories
+Content-Type: application/json
+
+{
+    "title": "Aplicação NodeJS",
+    "url": "https://github.com/erick-gomes/desafio-ignite-conceitos-nodejs",
+    "techs": [
+        "react",
+        "react-native",
+        "typescript"
+    ]
+}
+
+###
+// substituir :id pelo uuid
+POST http://localhost:3333/repositories/:id/like
+
+###
+
+POST http://localhost:3333/repositories/5c8bf70a-c6e3-470b-a98a-54f6d4312af3/like
